@@ -18,8 +18,27 @@
         }
         .navbar h1 {
             margin: 0;
-            font-size: 40px;
+            font-size: 18px;
             color: #333;
+        }
+        .bottom-menu {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f8f8f8;
+            border-top: 1px solid #e7e7e7;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 50px;
+        }
+        .menu-item {
+            text-align: center;
+        }
+        .menu-item button {
+            background: none;
+            border: none;
+            font-size: 16px;
         }
         /* Add additional styles as needed */
     </style>
@@ -30,6 +49,20 @@
     </div>
     <!-- Content of your app goes here -->
 
+    <div class="bottom-menu">
+        <div class="menu-item">
+            <button>Home</button>
+        </div>
+        <div class="menu-item">
+            <button>Search</button>
+        </div>
+        <div class="menu-item">
+            <button>Profile</button>
+        </div>
+        <div class="menu-item">
+            <button>Settings</button>
+        </div>
+    </div>
     <!-- You can add more HTML elements here as needed -->
 </body>
 </html>
